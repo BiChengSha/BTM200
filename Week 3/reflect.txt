@@ -1,0 +1,5 @@
+Adding 0.005 to the number of minutes rounds the number of minutes correctly because without the nearly negligible value, the number may round down due to how C's rounding logic works. By adding this small value, it doesn't change the overall value of the number as it is an integer, but it brings the value beyond the rounding threshold.
+
+scanf determines an integer based on the characters entered in the buffer. If the ASCII value of the character entered does not match that of an integer, it will automatically be rejected and move on to the next character in the buffer. 
+
+Dividing by 60.0 forces floating point math rather than defaulting to integer math when using 60, since the value being divided by 60(.0) is also an integer.
