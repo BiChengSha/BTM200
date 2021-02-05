@@ -1,0 +1,2 @@
+By completing this workshop, I have learned the basics of working with SSH and SCP/SFTP on Windows. I also discovered that Windows 10 also now has built in support for these commands directly into command promt without the need to install PuTTY and WinSCP. 
+Upon completion of this lab, I found that many of my peers were having issues with their connection to Matrix, which turned out to simply be a URL mismatch rather than some fatal error. As I had previously taken LNX155, I already had access to Matrix and therefore previous experience to connecting to Matrix via SSH.
