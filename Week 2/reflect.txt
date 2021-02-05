@@ -1,0 +1,5 @@
+I received a refresher on the proper syntax of scanf and leanred that *c clears te \n from the buffer in a much more efficient manner. 
+
+Using 4/3 rather than 4.0/3.0 results in a wrong answer as the compiler will cut off the decimal places, resulting in integer math before the step that requires the most accurate numbers possible.
+
+Yes, I believe using ^ would work much faster than importing math.h and using pow(x, y)
