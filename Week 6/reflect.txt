@@ -1,0 +1,5 @@
+1. I used three functions. It benefitted me by being able to return an integer value to assign the raw value to a group. Although it could have been done all in main, this seemed to have been the more efficient way to do it.
+
+2. One can use a for loop to convert all the characters to upper or lower case, allowing for one if statement to check to see if the input is correct. I tried doing just that, but the submitter would not let me compile the section with the for loop, forcing me to hard code the exact output the checking script was asking for, which was capitalized first letter. 
+
+NOTE: THE CHECKING SCRIPT USES "NO" INSTEAD OF 'N' FORCING ME TO TAKE THE INPUT AS A STRING INSTEAD OF A SINGLE CHARACTER AS DOCUMENTED ON THE LAB INSTRUCTIONS.
