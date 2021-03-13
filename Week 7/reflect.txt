@@ -1,0 +1,4 @@
+1. I had to nest as far deep as 3 levels. The if statement was inside the do while loop, and that was inside a for loop. 
+2. I set the max value to the lowest value possible, which means if any new value comes in and is higher than that value, then assign that as the new max value. 
+3. I initialized it as the highest and lowest valid numbers, because if the max value is the lowest possible value and vice versa, then that means any value inputted by the user will replace the initialized value. 
+4. The loop structure used to ensure input values were valid simply checked after the two values were entered. If the two values were within proper range OR if low was higher than high, redo because there was only one error statement. If there were discrete statements telling the user what went wrong, then I would have put more cases for the if statement to filter and respond with the right error message. 
